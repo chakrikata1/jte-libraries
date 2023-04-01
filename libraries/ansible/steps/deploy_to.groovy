@@ -1,4 +1,4 @@
-void call(){
+void call(app_env){
 
     stage("Deploy to: ${app_env.long_name}")
     println("performing a deploying via ansible")
